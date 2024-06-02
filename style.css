@@ -8,6 +8,14 @@ nav{
     justify-content: space-between;
     align-items: center;
 padding-left: 20px;
+color: #5d5c5c;
+}
+li:hover{
+    color: #100f0f;
+
+}
+h2{
+    color: #000;
 }
 ul{
     display: flex;
@@ -72,6 +80,19 @@ h3{
 border-radius: 1000px;
 }
 footer{
+    color: #3b3b3b;
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    
+}
+ol,li{
+    list-style: none;
+    flex-direction: column;
+    bottom: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+div{
+    gap: 3rem;
 }
