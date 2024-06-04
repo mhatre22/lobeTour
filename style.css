@@ -9,9 +9,15 @@ nav{
     align-items: center;
 padding-left: 20px;
 color: #5d5c5c;
+font-weight: bold;
+font-size: 17px;
+font-style: normal;
+
 }
 li:hover{
     color: #100f0f;
+transform: scale(.96)
+    ;
 
 }
 h2{
@@ -42,8 +48,16 @@ button{
     width: 8rem;
     font-size: 18px;
     text-align: center;
-    font-weight: bolder;
+    font-weight: bold;
 border-radius: 1000px;
+transition: .2s ease-in-out;
+transform: scale3d(1.05,1.05,1.05);
+text-decoration: none;
+cursor: pointer;
+}
+
+button:active{
+    transform: scale(.98)
 }
 main{
 justify-content: center;
@@ -53,6 +67,7 @@ text-align: center;
 }
 img{
     align-items: center;
+    border-radius: 20px;
 }
 span{
     color: #04DDB2;
@@ -79,20 +94,26 @@ h3{
     font-weight: bolder;
 border-radius: 1000px;
 }
+.button1:active{
+    transform: scale(.98)
+}
 footer{
     color: #3b3b3b;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(5,1fr);
+    column-count: 5;
+    padding: 90px 180px;
+    padding: 0 100px 100px;
+
+
     
 }
 ol,li{
     list-style: none;
     flex-direction: column;
-    bottom: 10px;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
+   
 }
-div{
-    gap: 3rem;
+img:active{
+    transform: scale(.98);
+    cursor: pointer;
 }
